@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter the number:");
+    scanf("%d",&a);
+    if(num&1)
+    {
+        printf("odd number");
+    }
+    else
+    {
+        printf("Even number");
+    }
+}
+output:
+53
+odd number
+
+
+
+
+
+
+
+
+
+
