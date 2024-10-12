@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    float A;
+    float b;
+    float fixed cost=100;
+    float profit;
+    printf("No of copies sold:");
+    scanf("%d",&x);
+    printf("cost of each copy :");
+    scanf("%f",&A);
+    printf("cost spent by ageny on each newspaper:");
+    scanf("%f",&B);
+    profit =(A*x)-(B*x)-fixed cost;
+    printf("the profit :rs %.2f\n",profit);
+    return 0;
+}
+output:
+No of copies sold :1000
+cost of eachcopy:2
+cost of spent by agency on each newspaper:1
+the profit obtained :900
